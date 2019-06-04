@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bod{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40em; 
+    background-image:url('https://thumbs.dreamstime.com/z/geom%C3%A9trico-abstracto-tri%C3%A1ngulos-conectados-gris-oscuro-en-un-fondo-blanco-web-del-plexo-datos-grandes-dise%C3%B1o-poligonal-moderno-112982896.jpg');
+}

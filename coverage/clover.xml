@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1556025476730" clover="3.2.0">
+  <project timestamp="1556025476731" name="All files">
+    <metrics statements="140" coveredstatements="129" conditionals="29" coveredconditionals="27" methods="58" coveredmethods="49" elements="227" coveredelements="205" complexity="0" loc="140" ncloc="140" packages="1" files="11" classes="11">
+      <file name="CalculadoraDeFecha.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/CalculadoraDeFecha.js">
+        <metrics statements="18" coveredstatements="18" conditionals="17" coveredconditionals="15" methods="5" coveredmethods="5"/>
+        <line num="3" count="130" type="stmt"/>
+        <line num="4" count="104" type="stmt"/>
+        <line num="8" count="44" type="stmt"/>
+        <line num="9" count="73" type="cond" truecount="9" falsecount="0"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="68" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="65" type="stmt"/>
+        <line num="16" count="54" type="stmt"/>
+        <line num="19" count="110" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="21" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="32" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="36" count="61" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="30" type="stmt"/>
+      </file>
+      <file name="CalculadoraDeFechasDePago.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/CalculadoraDeFechasDePago.js">
+        <metrics statements="25" coveredstatements="25" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="17" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="27" count="40" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="36" count="33" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="36" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="44" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="10" type="stmt"/>
+        <line num="47" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="31" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+      </file>
+      <file name="CalculadoraDeSalarioFijo.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/CalculadoraDeSalarioFijo.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="7" count="12" type="stmt"/>
+        <line num="11" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+      <file name="CalculadoraDeSalarioPorComision.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/CalculadoraDeSalarioPorComision.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+      <file name="CalculadoraDeSalarioPorHora.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/CalculadoraDeSalarioPorHora.js">
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="23" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+      </file>
+      <file name="Empleado.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/Empleado.js">
+        <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7"/>
+        <line num="3" count="24" type="stmt"/>
+        <line num="4" count="24" type="stmt"/>
+        <line num="5" count="24" type="stmt"/>
+        <line num="6" count="24" type="stmt"/>
+        <line num="7" count="24" type="stmt"/>
+        <line num="8" count="24" type="stmt"/>
+        <line num="9" count="24" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="18" count="34" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="30" count="20" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+      <file name="GeneradorDeBoleta.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/GeneradorDeBoleta.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="8" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="MetodoDePago.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/MetodoDePago.js">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+      </file>
+      <file name="RepositorioJSON.js="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/RepositorioJSON        <metrics statements="16" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="2"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+      <file name="TarjetaDeAsistencia.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/TarjetaDeAsistencia.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+      </file>
+      <file name="TarjetaDeVentas.js" path="/Users/andreamendoza/Documents/Septimo Semestre/Arquitectura de Software/proyecto-arqui/src/TarjetaDeVentas.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>

@@ -1,0 +1,31 @@
+<div class="bod">
+    <a href=''>
+        <button mat-raised-button class="crear-Empleado" type="submit">Volver</button>
+      </a>
+    <h2>Lista de Empleados</h2>
+    <ul class="empleados">
+      <li *ngFor="let empleado of empleados">
+        <mat-accordion>
+           <mat-expansion-panel class="mat-expansion-panel-body" (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <div>
+              <p>Empleado: {{empleado.nombreCompleto}}</p>
+            </div>
+          </mat-panel-title>
+         
+        </mat-expansion-panel-header>
+       
+            <p>ID: {{empleado.id}}</p>  
+            <p *ngIf="getTipo(empleado)==='salarioFijo'">Salario: {{empleado.calculadoraDeSalario.salario}}</p>
+            <p *ngIf="getTipo(empleado)==='salarioPorHora'">Precio de la Hora: {{empleado.calculadoraDeSalario.salarioPorHora}}</p>
+            <p *ngIf="getTipo(empleado)==='salarioPorComision'">Salario Base: {{empleado.calculadoraDeSalario.salarioBase}}</p>
+            <p *ngIf="getTipo(empleado)==='salarioPorComision'">Porcentaje de Comision: {{empleado.calculadoraDeSalario.porcentajeDeComision}} %</p>
+
+           
+      </mat-expansion-panel>
+    </mat-accordion>
+      </li>
+    </ul>
+</div>

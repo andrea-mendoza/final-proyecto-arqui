@@ -1,0 +1,23 @@
+ul{
+    list-style:none;
+}
+.mat-expansion-panel-body{
+    background: rgb(222,235,229);
+}
+.editar{
+    
+    margin-left: 60em;
+    background: rgb(75,144,234);
+    color:white;
+}
+.input-full-width{
+    visibility:hidden !important;
+
+}
+.enviar{
+    position: relative;
+    margin-left: 3em;
+    background: rgb(75,144,234);
+    color:white;
+    left: 70%;
+  }
