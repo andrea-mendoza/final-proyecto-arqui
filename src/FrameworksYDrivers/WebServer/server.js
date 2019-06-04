@@ -52,11 +52,11 @@ app.get('/boletas',function(req,res){
     res.send(boletas);
 });
 
-app.get('/enviar-notificacion/:id',function(req,res){
+app.get('/enviar-notificacion/',function(req,res){
 
     const notificacion = new Notification();
-    const tipoDeNotificacion = req.body;
-    const empleadoId = controladorEmpleado.obtenerEmpleado(id);
+    const notificaciones = req.body;
+
     controladorEmpleado.enviarNotificacion(notificacion,tipoDeNotificacion);
 
     res.send("ok");
