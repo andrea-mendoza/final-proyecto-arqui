@@ -1,0 +1,27 @@
+ul{
+    list-style:none;
+}
+.example-card {
+  width: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  background: rgb(222,235,229);
+
+}
+
+.example-header-image {
+    background: rgb(222,235,229);
+
+  background-size: cover;
+}
+.boletas{
+    align-content: center
+}
+
+.guardar{
+  position: relative;
+  margin-left: 3em;
+  background: rgb(75,144,234);
+  color:white;
+  left: 70%;
+}
