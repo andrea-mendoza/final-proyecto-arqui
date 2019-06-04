@@ -1,6 +1,6 @@
 const Empleado = require( "../../LogicaDelNegocio/Entidades/Empleado").Empleado;
 const CalculadoraDeFechaDePagoFactory = require("../../LogicaDelNegocio/MetodosFactory/CalculadoraDeFechaDePagoFactory").CalculadoraDeFechaDePagoFactory;
-const CalculadoraDeFechaDePagoSalarioPorComision = require("../../LogicaDelNegocio/Entidades/CalculadoraDeFechasDePago").CalculadoraDeFechaDePagoSalarioPorComision;
+const CalculadoraDeSalarioFactory = require("../../LogicaDelNegocio/MetodosFactory/CalculadoraDeSalarioFactory").CalculadoraDeSalarioFactory;
 const CalculadoraDeFechaDePagoSalarioPorHora = require("../../LogicaDelNegocio/Entidades/CalculadoraDeFechasDePago").CalculadoraDeFechaDePagoSalarioPorHora;
 
 
